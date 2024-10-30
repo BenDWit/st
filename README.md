@@ -22,7 +22,7 @@ features that make it literally the best terminal emulator ever:
 ## Pretty stuff
 
 + Compatibility with `Xresources` and `pywal` for dynamic colors.
-+ Default [gruvbox-materiaal](https://github.com/sainnhe/gruvbox-material) colors otherwise.
++ Default [gruvbox-materialal](https://github.com/sainnhe/gruvbox-material) colors otherwise.
 + Transparency/alpha, which is also adjustable from your `Xresources`.
 + Default font is system "mono" at 14pt, meaning the font will match your
   system font.
@@ -64,7 +64,7 @@ files to load the settings.
 For example, you can define your desired fonts, transparency or colors:
 
 ```
-*.font:	Liberation Mono:pixelsize=12:antialias=true:autohint=true;
+*.font: Liberation Mono:pixelsize=12:antialias=true:autohint=true;
 *.alpha: 0.9
 *.color0: #111
 ...
@@ -77,13 +77,8 @@ The `alpha` value (for transparency) goes from `0` (transparent) to `1`
 
 To be clear about the color settings:
 
-- This build will use gruvbox colors by default and as a fallback.
-- If there are Xresources colors defined, those will take priority.
-- But if `wal` has run in your session, its colors will take priority.
++ This build will use gruvbox-material colors by default and as a fallback.
++ If there are Xresources colors defined, those will take priority.
++ But if `wal` has run in your session, its colors will take priority.
 
 Note that when you run `wal`, it will negate the transparency of existing windows, but new windows will continue with the previously defined transparency.
-
-## Contact
-
-- Luke Smith <luke@lukesmith.xyz>
-- [https://lukesmith.xyz](https://lukesmith.xyz)
